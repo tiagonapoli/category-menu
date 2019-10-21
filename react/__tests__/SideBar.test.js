@@ -23,3 +23,7 @@ describe('SideBar component', () => {
     expect(renderComponent({ visible: true }).asFragment()).toMatchSnapshot()
   })
 })
+
+it('a', () => {
+  expect(true).toBe(false)
+})
